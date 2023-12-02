@@ -22,7 +22,6 @@ def count_cubes(text):
                 if blue > 14:
                     return text[0], False
     return text[0], True
-    
 
 total = 0
 with open("2/input_2.txt", "r") as file:
